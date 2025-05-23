@@ -1,4 +1,5 @@
 # Promptopia MCP
+[![smithery badge](https://smithery.ai/badge/@lumile/promptopia-mcp)](https://smithery.ai/server/@lumile/promptopia-mcp)
 
 A powerful Model Context Protocol (MCP) server for managing, organizing, and reusing prompt templates with variable substitution and multi-message conversation structures.
 
@@ -54,6 +55,14 @@ Built with TypeScript and designed for scalability, Promptopia MCP transforms ho
 - **Import/Export**: Backup and share prompt collections across different environments
 
 ## Installation
+
+### Installing via Smithery
+
+To install Promptopia for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@lumile/promptopia-mcp):
+
+```bash
+npx -y @smithery/cli install @lumile/promptopia-mcp --client claude
+```
 
 #### Option 1: NPX (Recommended)
 Add this configuration to your Claude Desktop config file:
